@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 127px;
+  padding: 32px, 64px, 32px, 64px;
+  flex-wrap: wrap;
+}
+
+/* Asalytics logo on homepage */
+.SAlytics {
+  width: 112px;
+  height: 24px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  color: #FFFFFF;
+  width: 199px;
+  height: 60px;
+  background: #000000;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.btntext {
+  width: 119px;
+  height: 20px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+

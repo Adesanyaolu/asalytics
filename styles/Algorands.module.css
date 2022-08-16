@@ -1,0 +1,16 @@
+.algos {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+  flex-wrap: wrap;
+
+  /* width: 1440px;
+  height: 715.06px; */
+
+  background: #f2fbf6;
+
+}
